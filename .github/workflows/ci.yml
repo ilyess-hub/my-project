@@ -31,7 +31,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: ilyes10/private-repo
+        image: ilyes10/myapp
         registry: docker.io
        
          
