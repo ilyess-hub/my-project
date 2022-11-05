@@ -33,6 +33,5 @@ jobs:
       with:
         image: ilyes10/private-repo
         registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+       
          
